@@ -163,8 +163,13 @@ color: #000f30;
 }
 
 .container__cover .svg img{
-    width: 600px;
+    width: 400px;
     animation: move-vector 4s linear infinite;
+}
+@media (min-width:768px){
+    .container__cover .svg img{
+        width: 600px;
+    }
 }
 @keyframes move-vector{
     0%{
@@ -265,7 +270,7 @@ section p{
     padding: 0;
 }
 iframe{
-    width: 400px;
+    width: 450px;
     
 }
 @media (min-width:768px){
