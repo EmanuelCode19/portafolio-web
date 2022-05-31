@@ -264,4 +264,16 @@ section p{
     margin: 0;
     padding: 0;
 }
+iframe{
+    width: 400px;
+    
+}
+@media (min-width:768px){
+   iframe{
+    max-width: 560px;
+   }
+   .footer p{
+       font-size: 24px;
+   }
+}
 
