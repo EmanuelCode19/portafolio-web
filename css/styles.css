@@ -134,8 +134,6 @@ section h2{
     margin-top: 40px;
     font-size: 40px;
     margin-left: 10px;
-    /* text-align: center; */
-    /* text-decoration: underline; */
 }
 section h2::after{
     content: '';
@@ -183,6 +181,49 @@ section h2::after{
     margin-top: 0;
     font-weight: 700;
 }
+
+
+
+.skills{
+    margin-top: -10px;
+    background-image: url(../img/fondo-skill-responsive.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+   margin: -10px 0 auto 0;
+}
+/* .skills h2,p{
+    text-align: center;
+} */
+@media (min-width:768px){
+    .skills{
+        margin-top: -10px;
+        background-image: url(../img/fondo-skill.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+    /* .skills h2,p{
+        text-align: left;
+    } */
+
+}
+.bg-grey{
+    width: 60%;
+    background-color: #ddd;
+}
+.skill{
+text-align: right; /* Right-align text */
+padding-top: 10px; /* Add top padding */
+padding-bottom: 10px; /* Add bottom padding */
+margin-bottom: 20px;
+  color: white; /* White text color */
+}
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.sass {width: 60%; background-color: #ff7272;} /* Dark Grey */
+.db {width: 55%; background-color: #ffee02;} /* Dark Grey */
 
 .logo__uni{
     display: flex;
