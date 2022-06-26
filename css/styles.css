@@ -197,10 +197,10 @@ section h2::after{
 
 
 
-.skills{
+.tecnologias{
    position: relative;
 }
-.skills::before{
+.tecnologias::before{
  content: '';
  display: block;
  position: absolute;
@@ -213,7 +213,7 @@ section h2::after{
 }
 
 @media (min-width:768px){
-    .skills::before{
+    .tecnologias::before{
         width: 10%;
         height: 100%;
         clip-path: polygon(100% 0, 0 50%, 100% 100%);
@@ -221,38 +221,31 @@ section h2::after{
         background-color: var(--color-primario);
     }
 }
-.skills p{
+.tecnologias p{
     text-align: center;
-}
-.flex-skill{
-    margin-left: 25%;
 }
 
 @media (min-width: 768px){
-    .skills p{
+    .tecnologias p{
         margin-left: -503px;
     }
-    .flex-skill{
-        margin-left: 1%;
+}
+
+.grid-tecnologias{
+ display: grid;
+ grid-template-columns: repeat(2,1fr);
+ justify-items: center;
+ gap: 5px;
+}
+    
+@media (min-width:768px){
+    .grid-tecnologias{
+        grid-template-columns: repeat(3,1fr);
     }
 }
-.bg-grey{
-    width: 60%;
-    background-color: #ddd;
+.img-tecnologia{
+ width: 150px;
 }
-.skill{
-text-align: right; /* Right-align text */
-padding-top: 10px; /* Add top padding */
-padding-bottom: 10px; /* Add bottom padding */
-margin-bottom: 20px;
-  color: white; /* White text color */
-}
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.sass {width: 60%; background-color: #ff7272;} /* Dark Grey */
-.db {width: 55%; background-color: #2d3436;} /* Dark Grey */
-
 .info-me{
     padding: 30px 0;
     border-top: 1px solid var(--color-primario);
