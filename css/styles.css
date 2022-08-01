@@ -342,16 +342,8 @@ section p{
     background-repeat: no-repeat;
 }
 
-.imgTwo{
-    background-image: url(../img/CRUD.jpeg);
-    background-repeat: no-repeat;
-    height: 100%;
-    background-size: cover;
-    background-position: center;
-    border-radius: 40px;
-}
 .imgTree{
-    background-image: url(../img/crear-una-app.png);
+    background-image: url(../img/imagenVet.jpg);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
