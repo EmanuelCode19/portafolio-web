@@ -12,7 +12,10 @@
 img{
     max-width: 100%;
 }
-
+a{
+    text-decoration: none;
+    color: #000;
+}
 .text p{
     margin: 0;
 }
@@ -24,7 +27,7 @@ img{
     width: 20ch;
     margin-bottom: 10px;
 
-    animation: typing 5s steps(20) infinite,blink .5s infinite
+    animation: typing 3s steps(20) infinite,blink .3s infinite
     step-end alternate;
     overflow: hidden;
 }
@@ -322,10 +325,11 @@ section p{
 @media (min-width:768px){
     .container-card{
         flex-direction: row;
+        flex-wrap: wrap;
     }
 }
 .card-father{
-    *margin:20px;
+    margin:20px;
     perspective: 1000px;
     
 }
@@ -344,6 +348,24 @@ section p{
 
 .imgTree{
     background-image: url(../img/imagenVet.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+.imgFour{
+    background-image: url(../img/logo_the_watches.svg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+.imgFive{
+    background-image: url(../img/logoSyA.jpeg);
     background-repeat: no-repeat;
     height: 100%;
     background-size: cover;
@@ -404,7 +426,7 @@ border-radius: 40px;
 }
 .body-card-back h1{
     margin-bottom: 50px;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .body-card-back p{
@@ -461,4 +483,3 @@ iframe{
        font-size: 36px;
    }
 }
-
