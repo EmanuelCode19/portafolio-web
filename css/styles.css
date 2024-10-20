@@ -303,11 +303,26 @@ section p{
     margin-bottom: 20px;
     padding: 15px;
 }
-
+.url-link{
+    font-size: 24px;
+}
 @media (min-width:768px){
     section p{
         padding: 0;
     }
+}
+.achieve h3{
+    padding: 10px 0px;
+    font-size: 24px;
+}
+
+.achieve img{
+    width: 700px;
+}
+
+.achieve{
+    display: flex;
+    gap: 10px;
 }
 
 .container-card{
