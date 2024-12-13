@@ -403,6 +403,15 @@ section p{
     background-repeat: no-repeat;
 }
 
+.imgOne{
+    background-image: url(../img/img-inversionesSantana.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
 .imgTree{
     background-image: url(../img/imagenVet.jpg);
     background-repeat: no-repeat;
@@ -483,7 +492,7 @@ border-radius: 40px;
 }
 .body-card-back h1{
     margin-bottom: 50px;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .body-card-back p{
